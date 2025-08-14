@@ -1,2 +1,3 @@
 # atividadeIA
 
+pip install aigyminsper
