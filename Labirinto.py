@@ -1,5 +1,13 @@
 from aigyminsper.search.graph import State
 
+# 0 = parede/inacessível
+# Inteiros > 0 = ID da célula
+# Metas: 14 e 18.
+# Custo por passo: 2; Custo ao entrar em 18:4
+# Coordenadas da CLI: python labirinto.py configuracao.txt x y
+
+
+
 class MyAgent(State):
 
     def __init__(self, op):
